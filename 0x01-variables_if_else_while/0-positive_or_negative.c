@@ -4,13 +4,13 @@
 /**
  * main - show if ever the random number is positive, negative or zero
  *
- * Return; 0 (succes)
+ * Return: 0 (succes)
  */
 int main(void)
 {
 int n;
 srand(time(0));
-n = rand() -RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 /* the code goes there */
 if (n < 0)
 {
