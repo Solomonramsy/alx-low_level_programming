@@ -12,7 +12,7 @@
 * Return: 0
 */
 
-intmain(void)
+int main(void)
 {
 int n;
 int lastnumber;
